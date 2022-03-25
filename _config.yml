@@ -104,7 +104,7 @@ analytics:
 author:
   name             : "Jaehun Jeong"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **Front-end Engineer**."
+  bio              : "I am **Front-end Engineer**."
   location         : "Seoul South Korea"
   email            : "wogns7730@gmail.com"
   links:
