@@ -19,7 +19,7 @@ locale                   : "en-US"
 title                    : "znhoon's Github Blog"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Jaehun Jeong"
+name                     : "znhoon"
 description              : "An amazing website."
 url                      : "https://znhoon.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
