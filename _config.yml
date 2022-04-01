@@ -110,7 +110,7 @@ author:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-       url: "https://mail.google.com/mail/u/0/?fs=1&to=wogns7730@gmail.com&tf=cm"
+      url: "https://mail.google.com/mail/u/0/?fs=1&to=wogns7730@gmail.com&tf=cm"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
@@ -122,10 +122,10 @@ author:
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-       url: "https://github.com/znhoon"
+      url: "https://github.com/znhoon"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-       url: "https://www.instagram.com/zn_hoon"
+      url: "https://www.instagram.com/zn_hoon"
 
 # Site Footer
 footer:
