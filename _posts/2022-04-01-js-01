@@ -5,3 +5,38 @@ categories:
 tags: 
   - [JavaScript,Html,Css]
 ---
+
+![image](https://user-images.githubusercontent.com/92897635/161251392-ea027604-d373-486c-a150-4ef02dad4293.png)
+
+## 평생 자바스크립트를 건드려본 적이 없다, 이건 널 위한 코스야
+<br>
+<br>
+### Momentum이란? 
+- 새로운 탭화면을 생산성 앱으로 대체
+
+<br>
+## About JavaScript 
+- 넷스케이프에서 처음 사용하려고 만들어짐
+- 프론트엔드에서 사용할 수 있는 유일한 프로그래밍 언어
+- Javascript, html, css는 모든 웹브라우저에 내장되어 있음
+- 브라우저의 console을 이용
+- three.js : 자바스크립트로 3D를 구현하게 해주는 라이브러리 -> 데이터 시각화 구현
+- electron : 자바스크립트, html, css로 데스크탑 앱을 만들 수 있음
+- soket.io : 채팅이나 실시간 기능들을 가능하게 함
+- ml5.js : 머신러닝 모델을 생성하는 웹사이트도 구축하여 그 모델을 훈련시킬 수 있음
+- 프론트엔드, 백엔드 둘 다 자바스크립트로 구현 가능 + 머신러닝
+
+<br>
+
+## 브라우저는 html을 열고 html은 css와 자바스크립트를 가져온다!
+html -> 접착제 역할, 자바스크립트 파일이나 css 파일을 브라우저에서 여는 게 아님
+        브라우저에서 html 파일을 여는 것이다
+
+html 안에서
+css는 title 위에, 자바스크립트는 아래에(body 안에) 입력한다.
+자바스크립트는 다음과 같은 형식으로 넣는다 ### script src = "app.js" 
+
+<br>
+자바스크립트에서는 2가지 데이터 타입이 가능
+- 1. 숫자 integer(full number) 또는 float
+- 2. text -> "hello"   + string -> 처음부터 끝까지 문자로 이루어져 있다는 말
