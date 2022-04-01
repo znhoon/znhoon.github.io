@@ -106,7 +106,7 @@ author:
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "I am **Front-end Engineer**."
   location         : "Seoul South Korea"
-  email            : "wogns7730@gmail.com"
+  email            : #"wogns7730@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
