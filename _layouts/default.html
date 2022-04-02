@@ -10,18 +10,19 @@
 -->
 <html lang="{{ site.locale | slice: 0,2 | default: "en" }}" class="no-js">
   <head>
-    <!--폰트 : "Red Hat Mono"-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Mono:wght@300&display=swap" rel="stylesheet">
-    
-    <!--폰트 : "Poor Story"-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poor+Story&display=swap" rel="stylesheet">
-    
     {% include head.html %}
     {% include head/custom.html %}
+    <!-- 스크롤바 -->
+    <style> 
+      ::-webkit-scrollbar{width: 16px;}
+      ::-webkit-scrollbar-track {background-color:#dbdbdb; border-radius: 16px;}
+      ::-webkit-scrollbar-thumb {background-color:#b9b9b9; border-radius: 16px;}
+      ::-webkit-scrollbar-thumb:hover {background: #9d9d9d;}
+      ::-webkit-scrollbar-button:start:decrement,::-webkit-scrollbar-button:end:increment 
+      {
+          width:12px;height:12px;background:transparent;}
+      } 
+    </style>
   </head>
 
   <body class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %}">
