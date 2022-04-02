@@ -324,13 +324,32 @@ body {
   }
 }
 
-.page__taxonomy-item {
+.page__taxonomy-item-tag {
+  font-size: 0.8em;
   display: inline-block;
   margin-right: 5px;
   margin-bottom: 8px;
   padding: 5px 10px;
   text-decoration: none;
-  border: 1px solid mix(#000, $border-color, 25%);
+  border: 1px solid #b9b9b9;
+  background-color: #b9b9b9;
+  border-radius: $border-radius;
+
+  &:hover {
+    text-decoration: none;
+    color: $link-color-hover;
+  }
+}
+
+.page__taxonomy-item-category {
+  font-size: 0.8em;
+  display: inline-block;
+  margin-right: 5px;
+  margin-bottom: 8px;
+  padding: 5px 10px;
+  text-decoration: none;
+  border: 1px solid #dbdbdb;
+  background-color: #dbdbdb;
   border-radius: $border-radius;
 
   &:hover {
